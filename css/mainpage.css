@@ -1,0 +1,105 @@
+.zerowrapper-cube{
+
+}
+.cubenew{
+    box-shadow: 0vw 0.01vh 4vw  0.1vw  rgba(0,0,0,0.25);
+  height: 30vw;
+  width: 20vw;
+background-size:cover;
+background-position: center center;
+ background-image: url(3.jpg);
+ margin-bottom:1.7vw;
+ margin-left: 0px;
+}
+.cubejem{
+  background-size:cover;
+  height: 8vw;
+    width: 20vw;
+  background-position: center;
+  background-image: url(kardi.jpg);
+}
+.main-wrapper{
+  display: grid;
+  margin-left: 18vw;
+  grid-template-columns: 21.7vw 40vw;
+  height: 50vh;
+}
+.firstwrapper-cube{
+  display: grid;
+  grid-template-columns: 11.6vw 20.7vw 13vw;
+}
+.secondwrapper-cube{
+  display: grid;
+  grid-template-columns: 21.5vw 40vw;
+  position: relative;
+
+left: 21.7vw;
+bottom: 19vw;
+}
+.firstcube{
+  height: 19vw;
+  width: 10vw;
+    box-shadow: 1vw 0.1vw 4vw  0.1vw  rgba(0,0,0,0.25);
+}
+.secondcube{
+  height: 19vw;
+  width: 19vw;
+      box-shadow: 1vw 0.1vw 4vw  0.1vw  rgba(0,0,0,0.25);
+}
+.cube{
+  background-size: cover;
+
+
+   transition: 0.5s;
+
+}
+.thirdcube{
+      box-shadow: 1vw 0.1vw 4vw  0.1vw  rgba(0,0,0,0.25);
+  height: 19vw;
+  width: 9vw;
+ background-image: url(https://instagram.fhel3-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s750x750/122531107_728940747693712_1558015083899742967_n.jpg?_nc_ht=instagram.fhel3-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=rdqnHls6SKkAX_J1gfN&_nc_tp=24&oh=52f2b2f8f9b8e7d79d1db4f5b5345d9c&oe=5FBEC3EF);
+}
+.secondcube{
+background-image: url(4.jpg);
+}
+.firstcube{
+      box-shadow: 1vw 0.1vw 4vw  0.1vw  rgba(0,0,0,0.25);
+  background-image: url(5.jpg);
+}
+.main-wrapper>h2,h1{
+ color:white;
+
+}
+
+.fourthcube{
+      box-shadow: 1vw 0.1vw 4vw  0.1vw  rgba(0,0,0,0.25);
+  height: 19vw;
+  width: 10vw;
+  background-image: url(https://instagram.fhel3-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s750x750/122531107_728940747693712_1558015083899742967_n.jpg?_nc_ht=instagram.fhel3-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=rdqnHls6SKkAX_J1gfN&_nc_tp=24&oh=52f2b2f8f9b8e7d79d1db4f5b5345d9c&oe=5FBEC3EF);
+}
+.fifthcube{
+      box-shadow: 1vw 0.1vw 4vw  0.1vw  rgba(0,0,0,0.25);
+  height: 9.3vw;
+  width: 30vw;
+  background-image: url(https://instagram.fhel3-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s750x750/122531107_728940747693712_1558015083899742967_n.jpg?_nc_ht=instagram.fhel3-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=rdqnHls6SKkAX_J1gfN&_nc_tp=24&oh=52f2b2f8f9b8e7d79d1db4f5b5345d9c&oe=5FBEC3EF);
+  position: relative;
+  right: 10vw;
+}
+.sixthcube{
+      box-shadow: 1vw 0.1vw 4vw  0.1vw  rgba(0,0,0,0.25);
+    position: relative;
+    bottom: 8vw;
+   left: 11.5vw;
+  height: 8vw;
+  width: 8vw;
+  background-image: url(https://instagram.fhel3-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s750x750/122531107_728940747693712_1558015083899742967_n.jpg?_nc_ht=instagram.fhel3-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=rdqnHls6SKkAX_J1gfN&_nc_tp=24&oh=52f2b2f8f9b8e7d79d1db4f5b5345d9c&oe=5FBEC3EF);
+}
+.seventhcube{
+      box-shadow: 1vw 0.1vw 4vw  0.1vw  rgba(0,0,0,0.25);
+  position: relative;
+  right: 0.5vw;
+  bottom: 8vw;
+  height:8vw;
+  width: 20.5vw;
+  background-image: url(https://instagram.fhel3-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s750x750/122531107_728940747693712_1558015083899742967_n.jpg?_nc_ht=instagram.fhel3-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=rdqnHls6SKkAX_J1gfN&_nc_tp=24&oh=52f2b2f8f9b8e7d79d1db4f5b5345d9c&oe=5FBEC3EF);
+}
