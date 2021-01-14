@@ -1,4 +1,4 @@
-import { sendEmail } from './function.js'
+import { sendEmail } from 'function.js'
 var data=[]
 function reload(){
  for (let i = 0; i < localStorage.length; i++) {
