@@ -1,0 +1,19 @@
+.form{
+  display: grid;
+position: relative;
+top:5vw;
+left: 18vw;
+width:20vw;
+}
+h1{
+  color: black;
+}
+.form>input{
+  width: 20vw;
+  margin-bottom: 1vw;
+}
+.info{
+  position: relative;
+  left: 18vw;
+  width: 20vw;
+}

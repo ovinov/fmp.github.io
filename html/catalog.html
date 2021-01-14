@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Каталог</title>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/productcard.css">
+
+  </head>
+  <body>
+    <div class="navbar">
+      <a  id="Logo" href="index.html">FMP</a>
+      <div>
+      </div>
+    <ul id="navbar_id">
+      <li class="navbar_li"><a href="catalog.html">Каталог</a></li>
+      <li class="navbar_li"><a href="basket.html">Корзина</a></li>
+  </ul>
+    </div>
+    <div class="secondnavbar">
+      <ul class="navbar2">
+        <li class="navbar_li"><a onclick="filtred('jeamper')">Джемперы и кардиганы</a></li>
+        <li class="navbar_li"><a  onclick="filtred('sweatshot')">Свитеры и водолазки</a></li>
+        <li class="navbar_li"><a  onclick="filtred('hoody')">Худи и свитшоты</a></li>
+        <li class="navbar_li"><a onclick="filtred('costume')">Трикотажные костюмы</a></li>
+        <li class="navbar_li"><a  onclick="filtred('houseClother')">Одежда для дома</a></li>
+        <li class="navbar_li"><a onclick="filtred('sport')">Спортивные костюмы</a></li>
+        <li class="navbar_li"><a onclick="filtred('jacket')">Куртки</a></li>
+      </ul>
+    </div>
+    <div id="cards-wrapper">
+
+    </div>
+  </body>
+    <script type="text/javascript" src="../js/productCard.js"></script>
+
+</html>
