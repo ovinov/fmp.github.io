@@ -35,16 +35,3 @@ function quantity(){return data.reduce(function(a,b){
   ИНДЕКС  ${form[8].value}
     `
   }
-  var order = data.map(makeOrder).join("")
-  console.log(order, cost())
-sendEmail()
-function sendEmail(){Email.send({
-    secureToken:"6c9f59d7-27fd-46a9-854b-88331c7f3667",
-     Host : "smtp.gmail.com",
-     Username : "fmpshop.mos@gmail.com",
-     Password : "Viva0000",
-     To : 'fmpshop.mos@gmail.com',
-     From : "fmpshop.mos@gmail.com",
-     Subject : "Новый заказ от " + now,
-     Body : order + cost() + contactInfo()
- })}
