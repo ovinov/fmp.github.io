@@ -23,18 +23,18 @@
       <h4 id="total"></h4>
       <h1>Доставка</h1>
     </div>
-    <div class="form">
-      <input type="text" name=""  placeholder="Ф.И.О." value="">
-      <input type="text" name=""  placeholder="Электронная почта" value="">
-        <input type="text" name=""  placeholder="Номер телефона" value="">
-        <input type="text" name=""  placeholder="Город" value="">
-          <input type="text" name=""  placeholder="Улица" value="">
-            <input type="text" name=""  placeholder="Дом" value="">
-              <input type="text" name=""  placeholder="Подъезд" value="">
-                <input type="text" name=""  placeholder="Квартира/офис" value="">
-                  <input type="text" name=""  placeholder="Почтовый индекс" value="">
+    <form id="form">
+      <input type="text" name="name"  placeholder="Ф.И.О." value="">
+      <input type="text" name="mail"  placeholder="Электронная почта" value="">
+        <input type="text" name="phone"  placeholder="Номер телефона" value="">
+        <input type="text" name="city"  placeholder="Город" value="">
+          <input type="text" name="street"  placeholder="Улица" value="">
+            <input type="text" name="house"  placeholder="Дом" value="">
+              <input type="text" name="entrance"  placeholder="Подъезд" value="">
+                <input type="text" name="appartamen"  placeholder="Квартира/офис" value="">
+                  <input type="text" name="indexmail"  placeholder="Почтовый индекс" value="">
                   <button class="add" type="button" name="button" value="Send Email" onclick="sendEmail()">Оформить Заказ</button>
-    </div>
+    </form>
     <script src="https://smtpjs.com/v3/smtp.js">
 </script>
 <script type="text/javascript" src="../js/delivery.js"></script>
